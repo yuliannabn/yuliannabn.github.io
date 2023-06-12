@@ -14,6 +14,7 @@
 
 body {
     width: 60%;
+    overflow: hidden;
     background-image: url("assets/background2.jpg");
     background-color: #130d0d;
     background-attachment: fixed;
@@ -26,7 +27,7 @@ body {
 
 .title {
     color: #dee6ec;
-    font-size: 420%;
+    font-size: 320%;
     text-align: center;
     margin: 3% 3%;
 }
@@ -74,7 +75,7 @@ div a:hover {
 
 .links {
     display: flexbox;
-    overflow-x: hidden;
+    overflow-x: auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -114,7 +115,7 @@ a:visited   {
 }
 
 .spacer {
-    padding: 15%;
+    padding: 25%;
 }
 
 .icons {
