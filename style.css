@@ -3,9 +3,38 @@
     margin-left: auto;
     margin-right: auto;
     padding: auto;
-    overflow: auto;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        width: 100%;
+        font-size: small;
+    }
+
+    body {
+        width: 70%;
+    }
+
+    .links {
+        word-spacing: small;
+        flex-wrap: wrap;
+    }
+
+    .container-small {
+        padding: 1%;
+        border: none;
+        font-size: 115%;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.014);
+        backdrop-filter: blur(2px);
+    }
+
+    .container-main {
+        min-width: 180%;
+        max-width: 10%;
+    }
 }
 
 .font {
@@ -14,7 +43,7 @@
 
 body {
     width: 60%;
-    overflow: hidden;
+    overflow: visible;
     background-image: url("assets/background2.jpg");
     background-color: #130d0d;
     background-attachment: fixed;
@@ -61,6 +90,7 @@ nav ul li a:hover {
 .navbar {
     font-weight: bold;
     display: flex;
+    white-space: nowrap;
     background-color: rgba(31, 26, 26, 0.4);
     backdrop-filter: blur(2px);
     flex-wrap: wrap;
@@ -80,7 +110,7 @@ div a:hover {
     align-items: center;
     flex-wrap: wrap;
     white-space: nowrap;
-    color: #fff7f7;
+    color: #fff7f7b2;
     text-align: center;
     font-size: 100%;
     text-decoration: none;
