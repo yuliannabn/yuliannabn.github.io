@@ -1,0 +1,28 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slide-in 1s ease-in-out;
+}
+
+@keyframes slide-in {
+    0% {
+    transform: translateX(10%);
+    } 100% {
+    transform: translateX(0);
+    }
+}
+
+.grow:hover {
+    transform: scale(1.01);
+}
+
+.change-color:hover {
+    color: #141111;
+    background-color: rgba(0, 0, 0, 0.733);
+}
