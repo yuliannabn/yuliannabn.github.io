@@ -1,0 +1,33 @@
+/* nav / links */
+
+nav ul li {
+    display: inline-block;
+    font-weight: bold;
+    align-items: center;
+    position: center;
+    word-wrap: none;
+    margin: 0px 50px;
+    color: #dee6ec;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: rgba(243, 237, 237, 0.767);
+}
+
+.navbar {
+    display: flex;
+    white-space: nowrap;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(31, 26, 26, 0.4);
+    backdrop-filter: blur(2px);
+    flex-wrap: wrap;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

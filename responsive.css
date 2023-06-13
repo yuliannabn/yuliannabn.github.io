@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    * {
+        width: 100%;
+        font-size: small;
+    }
+
+    body {
+        width: 70%;
+    }
+
+    .links {
+        word-spacing: small;
+        flex-wrap: wrap;
+    }
+
+    .container-small {
+        padding: 1%;
+        border: none;
+        font-size: 115%;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.014);
+        backdrop-filter: blur(2px);
+    }
+
+    nav ul li {
+        font-size: 180%;
+        margin: 0px -20px
+    }
+
+    .container-main {
+        min-width: 180%;
+        max-width: 10%;
+    }
+}

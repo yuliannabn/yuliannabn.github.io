@@ -1,0 +1,15 @@
+/* titles */
+
+.title {
+    color: #dee6ec;
+    font-size: 320%;
+    text-align: center;
+    margin: 3% 3%;
+}
+
+.subtitle {
+    color: #dee6ec;
+    font-size: 150%;
+    margin: 10px 10px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+/* links */
+
+.links {
+    overflow-x: auto;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    color: #fff7f7b2;
+    font-size: 100%;
+}
+
+div a:hover {
+    text-decoration: underline;
+    color: rgba(243, 237, 237, 0.767);
+}
+
+a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #dee6ec;
+}
+
+a:hover {
+    color: #5c7d91;
+}
+
+a:visited   {
+    color: #dee6ec;
+}

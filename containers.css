@@ -1,0 +1,61 @@
+/* containers */
+
+.container {
+    padding: 10px;
+    overflow-x: scroll;
+    width: 50%;
+}
+
+/* a link container / "button" */
+.container-small {
+    width: 30%;
+    padding: 1%;
+    box-sizing: border-box;
+    color: #f4fbff;
+    font-size: 120%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+/* to put multiple URL containers next to each other */
+/* with no like break */
+.links-container {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.links-container div {
+    margin: 10px 10px;
+}
+
+.container-main {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    backdrop-filter: blur(2px);
+    animation: fade 2s ease-in-out;
+}
+
+.container-sub {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    font-size: 300%;
+    word-spacing: 1px;
+    line-height: 2;
+    color: #f4fbff;
+    overflow: auto;
+    font-size: 120%;
+    text-align: center;
+    justify-self: auto;
+    text-decoration: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(2px);
+}
